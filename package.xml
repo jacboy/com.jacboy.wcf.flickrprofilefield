@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.jacboy.wcf.flickrprofilefield" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+    <packageinformation>
+        <packagename><![CDATA[Flickr Profilefield]]></packagename>
+        <packagedescription><![CDATA[Creates a profilefield for Flickr.]]></packagedescription>
+        <packagedescription language="de"><![CDATA[Erstellt ein Profilfeld für Flickr]]></packagedescription>
+        <version>1.0.1</version>
+        <date>2017-12-27</date>
+    </packageinformation>
+	
+    <authorinformation>
+        <author>Jay</author>
+        <authorurl>https://jakoblicina.com/</authorurl>
+    </authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.14"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="3.1.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+	</excludedpackages>
+   
+   <instructions type="install">
+        <instruction type="file">files.tar</instruction>
+        <instruction type="userOption">userOption.xml</instruction>
+         <instruction type="language">language/*.xml</instruction>
+    </instructions>
+
+    <instructions type="update" fromversion="*">
+        <instruction type="file">files.tar</instruction> 
+        <instruction type="language">language/*.xml</instruction> 
+        <instruction type="userOption">userOption.xml</instruction>  
+    </instructions>
+</package>
