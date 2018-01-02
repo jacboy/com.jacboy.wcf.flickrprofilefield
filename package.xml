@@ -4,8 +4,8 @@
         <packagename><![CDATA[Flickr Profilefield]]></packagename>
         <packagedescription><![CDATA[Creates a profilefield for Flickr.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Erstellt ein Profilfeld für Flickr]]></packagedescription>
-        <version>1.0.1</version>
-        <date>2017-12-27</date>
+        <version>1.0.2</version>
+        <date>2018-01-02</date>
     </packageinformation>
 	
     <authorinformation>
